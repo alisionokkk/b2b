@@ -1,0 +1,19 @@
+.footer { background: var(--navy); color: var(--on-navy-soft); margin-top: 80px; font-size: 14px; line-height: 1.6; }
+.grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; padding-top: 48px; padding-bottom: 28px; }
+.about { display: grid; gap: 10px; align-content: start; }
+.brand { color: #fff; font-weight: 800; font-size: 22px; letter-spacing: .08em; }
+.col { display: grid; gap: 8px; align-content: start; }
+.heading { color: #fff; font-weight: 700; margin-bottom: 4px; }
+.col a { color: var(--on-navy-soft); }
+.col a:hover { color: #fff; }
+.current, .phone { color: #fff !important; }
+.phone { font-weight: 700; }
+.copy { border-top: 1px solid rgba(255, 255, 255, .1); padding-top: 20px; padding-bottom: 20px; }
+
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .about { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr; }
+}

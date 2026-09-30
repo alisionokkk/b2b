@@ -1,0 +1,22 @@
+.wrap { background: var(--surface); border-radius: var(--radius-xl); padding: clamp(28px, 4vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 40px; }
+.h2 { font-size: var(--fs-h2); font-weight: 800; margin-bottom: 14px; text-wrap: balance; }
+.lead { margin-bottom: 28px; color: var(--text-muted); line-height: 1.55; font-size: 17px; }
+.contacts { display: grid; gap: 14px; font-size: 16px; }
+.phone { font-weight: 800; font-size: 22px; }
+.email { font-weight: 600; }
+.address { color: var(--text-soft); }
+
+.form { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; align-content: start; }
+.full { grid-column: 1 / -1; }
+.field { width: 100%; padding: 16px; border-radius: var(--radius-sm); border: 1.5px solid var(--field-border); font-size: 16px; background: var(--field-bg); color: var(--navy); outline: none; transition: border-color .15s, background-color .15s; }
+.field:focus { border-color: var(--navy); background: #fff; }
+.textarea { resize: vertical; }
+.privacy { font-size: 13px; color: var(--text-soft); }
+.privacy a { text-decoration: underline; color: var(--text-soft); }
+
+.success { background: var(--bg); border-radius: var(--radius-lg); padding: 40px; display: grid; gap: 12px; align-content: center; }
+.check { width: 56px; height: 56px; border-radius: 50%; background: var(--orange); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 800; }
+.successTitle { font-size: 24px; font-weight: 800; }
+.successText { color: var(--text-muted); }
+.reset { justify-self: start; background: none; border: 0; padding: 0; color: var(--orange); font-weight: 700; cursor: pointer; font-size: 15px; }
+.reset:hover { color: var(--orange-hover); }

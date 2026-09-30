@@ -1,0 +1,11 @@
+.bar { padding-bottom: var(--safe-bottom); position: sticky; bottom: 0; z-index: 10; background: var(--bg); border-top: 1px solid var(--line); box-shadow: 0 -4px 16px rgba(32, 43, 66, .06); }
+.nav { display: flex; align-items: center; justify-content: center; gap: 8px 32px; min-height: 52px; font-size: 15px; font-weight: 600; }
+.nav a { padding: 6px 0; border-bottom: 2px solid transparent; }
+.nav a.active { color: var(--orange); border-bottom-color: var(--orange); }
+
+@media (max-width: 640px) {
+  .nav { justify-content: space-between; gap: 4px; font-size: 13px; min-height: 48px; }
+}
+@media (max-width: 380px) {
+  .nav { font-size: 12px; }
+}

@@ -1,0 +1,16 @@
+.button {
+  display: inline-block;
+  padding: 16px 28px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  transition: background-color .15s, border-color .15s;
+}
+.primary { background: var(--btn); color: #fff; }
+.primary:hover { background: var(--btn-hover); color: #fff; }
+.outline { border: 1.5px solid rgba(255, 255, 255, .4); color: #fff; background: transparent; }
+.outline:hover { border-color: #fff; color: #fff; }
+.block { display: block; width: 100%; padding: 18px; font-size: 17px; }

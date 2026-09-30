@@ -1,0 +1,9 @@
+.card { background: var(--surface); border-radius: var(--radius-lg); overflow: hidden; display: flex; flex-direction: column; transition: box-shadow .2s; }
+.card:hover { box-shadow: 0 10px 30px rgba(32, 43, 66, .12); color: var(--navy); }
+.media { aspect-ratio: 1 / 1; background: var(--surface-muted); }
+.media img { width: 100%; height: 100%; object-fit: contain; display: block; }
+.body { padding: 18px; display: grid; gap: 6px; }
+.name { font-weight: 700; font-size: 15px; line-height: 1.35; }
+.spec { font-size: 13px; color: var(--text-soft); }
+.price { font-size: 14px; color: var(--text-muted); margin-top: 4px; }
+.opt { color: var(--navy); font-weight: 700; }

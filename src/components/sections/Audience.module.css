@@ -1,0 +1,5 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border-radius: var(--radius-lg); padding: 28px; display: grid; gap: 10px; align-content: start; }
+.num { font-size: 14px; font-weight: 800; color: var(--orange); }
+.title { font-size: 20px; font-weight: 800; }
+.text { color: var(--text-muted); line-height: 1.5; }

@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+[id] { scroll-margin-top: 72px; }
+/* на мобильной шапка не липкая — под неё отступ не нужен */
+@media (max-width: 860px) { [id] { scroll-margin-top: 16px; } }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--navy);
+  font-family: Onest, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--navy); text-decoration: none; }
+a:hover { color: var(--orange); }
+
+input, textarea, select, button { font-family: inherit; }
+img { max-width: 100%; }
+
+h1, h2, h3, p, ul { margin: 0; }
+
+:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }

@@ -1,0 +1,37 @@
+:root {
+  --navy: #202b42;
+  --orange: #e37455;
+  --orange-hover: #cd6143;
+  --btn: #cd6143;
+  --btn-hover: #b8553a;
+  --bg: #e9e1ce;
+  --surface: rgba(255, 255, 255, .5);
+  --surface-muted: rgba(32, 43, 66, .05);
+  --icon-bg: rgba(32, 43, 66, .08);
+  --field-bg: rgba(255, 255, 255, .6);
+  --line: rgba(32, 43, 66, .1);
+  --field-border: rgba(32, 43, 66, .16);
+  --text-muted: #4a5d71;
+  --text-soft: #5b6b7d;
+  --on-navy: #c9d6e3;
+  --on-navy-soft: #b7c6d6;
+  --on-navy-text: #d6e0ea;
+
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+
+  --container: 1240px;
+  --gutter: 24px;
+  --section-gap: 72px;
+
+  --fs-h2: clamp(26px, 3vw, 36px);
+
+  /* высоты постоянных блоков — нужны, чтобы первый экран влезал целиком */
+  --topbar-h: 40px;
+  --header-h: 53px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --bottomnav-h: calc(53px + var(--safe-bottom));
+  --hero-gap: 16px;
+}

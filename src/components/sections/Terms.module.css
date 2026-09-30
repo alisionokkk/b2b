@@ -1,0 +1,18 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+.panel { background: var(--surface); border-radius: var(--radius-xl); padding: clamp(28px, 4vw, 44px); }
+.dark { background: var(--navy); color: #fff; display: flex; flex-direction: column; }
+.h2 { font-size: var(--fs-h2); font-weight: 800; margin-bottom: 24px; }
+.h2Tight { margin-bottom: 8px; }
+.terms { display: grid; gap: 20px; }
+.term { display: grid; grid-template-columns: 40px 1fr; gap: 14px; }
+.icon { width: 40px; height: 40px; border-radius: var(--radius-sm); background: var(--icon-bg); display: flex; align-items: center; justify-content: center; font-weight: 800; }
+.termTitle { font-weight: 800; font-size: 17px; }
+.termText { color: var(--text-muted); margin-top: 4px; line-height: 1.5; }
+.note { color: var(--on-navy-soft); }
+.noteTop { margin-bottom: 28px; }
+.noteBottom { margin-top: 20px; font-size: 14px; }
+.tiers { display: grid; gap: 10px; }
+.tier { display: flex; justify-content: space-between; align-items: center; padding: 20px 22px; border-radius: var(--radius-md); background: rgba(255, 255, 255, .07); }
+.accent { background: var(--btn); }
+.from { font-size: 17px; font-weight: 600; }
+.value { font-size: 28px; font-weight: 800; }

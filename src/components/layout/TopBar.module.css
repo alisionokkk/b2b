@@ -1,0 +1,15 @@
+.bar { background: var(--navy); color: var(--on-navy); font-size: 13px; }
+.inner { display: flex; align-items: center; justify-content: space-between; gap: 8px 24px; padding-top: 4px; padding-bottom: 4px; }
+.info { display: flex; flex-wrap: wrap; gap: 2px 20px; }
+.address { color: #fff; }
+.socials { display: flex; align-items: center; gap: 2px; }
+.icon { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; color: var(--on-navy); }
+.icon:hover { color: #fff; background: rgba(255, 255, 255, .1); }
+.address:hover { color: #fff; text-decoration: underline; }
+
+@media (max-width: 640px) {
+  .hours { display: none; }
+  .info { min-width: 0; flex: 1; }
+  .address { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .socials { flex: none; }
+}
